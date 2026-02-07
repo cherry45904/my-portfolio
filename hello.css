@@ -1,0 +1,26 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+  background: url('../images/nepal-bg.jpg') no-repeat;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.destinations .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .destinations .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
