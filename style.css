@@ -52,7 +52,7 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(ktm.jpeg) no-repeat;
+    background: url(hiii.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -167,9 +167,10 @@ body{
 }
 .about-text h2{
     font-size: 60px;
+    color: rgb(255, 0, 242);
 }
 .about-text h2 span{
-    color: #0ef;
+    color: rgb(255, 0, 242);
 }
 .about-text h4{
     font-size: 29px;
@@ -233,10 +234,11 @@ body{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
+    color:hsla(59, 86%, 50%, 0.757)
 }
 .services-list div a{
     text-decoration: none;
-    color: #000;
+    color: hsl(244, 92%, 47%);
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
